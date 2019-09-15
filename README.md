@@ -15,4 +15,4 @@ Manjaro Configure
 - chsh -s /usr/bin/zsh  #更改zsh为默认的shell
 ## 字体放大
 - vim ~/.Xresources  #打开配置文件
-- Xft.dpi  #把数值改成200，或者更大
+- Xft.dpi  #把数值改成200，或者更大然后reboot重启系统
