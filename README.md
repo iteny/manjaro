@@ -16,3 +16,12 @@ Manjaro Configure
 ## 字体放大
 - vim ~/.Xresources  #打开配置文件
 - Xft.dpi  #把数值改成200，或者更大然后reboot重启系统
+## shurufa
+- sudo pacman -S fcitx-im
+- sudo pacman -S fcitx-configtool
+- sudo pacman -S fcitx-sogoupinyin
+- sudo vim ~/.xprofile
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+wget -O- bit.ly/installyaourt | sh -
