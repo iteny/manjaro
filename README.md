@@ -31,6 +31,8 @@ export XMODIFIERS="@im=fcitx"
 - 运行fcitx，查看有没有什么错误，然后运行fcitx-configtool把喜欢的输入法加入进去
 ## zsh的安装配置
 - sudo pacman -S alacritty  终端仿真器，性能极佳
+- vim ~/.config/i3/config  修改i3默认终端为alacritty
+- vim ~/.config/alacritty/alacritty  用/size找到文字大小，改成16以上，终端字体太小看不清
 - sudo pacman -S zsh 安装zsh
 - chsh -s /usr/bin/zsh 修改默认的shell
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  安装on-my-zsh
