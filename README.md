@@ -21,7 +21,11 @@ Manjaro Configure
 - sudo pacman -S fcitx-cloudpinyin fcitx-sunpinyin fcitx-googlepinyin fcitx-libpinyin
 - sudo pacman -S ttf-dejavu adobe-source-han-sans-otc-fonts
 - sudo vim ~/.xprofile
+
 export GTK_IM_MODULE=fcitx
+
 export QT_IM_MODULE=fcitx
+
 export XMODIFIERS="@im=fcitx"
+
 - 运行fcitx，查看有没有什么错误，然后运行fcitx-configtool把喜欢的输入法加入进去
