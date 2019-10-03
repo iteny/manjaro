@@ -29,3 +29,7 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 
 - 运行fcitx，查看有没有什么错误，然后运行fcitx-configtool把喜欢的输入法加入进去
+## zsh的安装配置
+- sudo pacman -S zsh 安装zsh
+- chsh -s /usr/bin/zsh 修改默认的shell
+- sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  安装on-my-zsh
