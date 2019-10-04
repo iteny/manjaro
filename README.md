@@ -36,3 +36,9 @@ export XMODIFIERS="@im=fcitx"
 - sudo pacman -S zsh 安装zsh
 - chsh -s /usr/bin/zsh 修改默认的shell
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  安装on-my-zsh
+
+## xorg套件，更改你的硬件设置
+- sudo pacman -S xorg  安装xorg全部
+- xmodmap -pke  他会输出你键盘每一个按键的位置
+- xmodmap -pke > ~/.xmodmap  把键盘配置文件输出到根目录下
+- vim ~/.xmodmap  我们修改键盘位置，终端xev打开，查看按键的编号
