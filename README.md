@@ -49,3 +49,4 @@ clear mod1
 - 底部重新刷入键位
 add control = Control_L Control_R
 add mod1 = Alt_L
+- xmodmap ~/.xmodmap  让配置生效
