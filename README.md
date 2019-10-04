@@ -42,3 +42,10 @@ export XMODIFIERS="@im=fcitx"
 - xmodmap -pke  他会输出你键盘每一个按键的位置
 - xmodmap -pke > ~/.xmodmap  把键盘配置文件输出到根目录下
 - vim ~/.xmodmap  我们修改键盘位置，终端xev打开，查看按键的编号
+- 修改完后，需要头部清除原来的键位
+clear control
+clear lock
+clear mod1
+- 底部重新刷入键位
+add control = Control_L Control_R
+add mod1 = Alt_L
