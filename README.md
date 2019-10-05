@@ -55,4 +55,5 @@ export XMODIFIERS="@im=fcitx"
 - sudo pacman -Qe 查询自己安装的全部软件
 - sudo pacman -Qdt 查询不再需要的软件，孤儿软件，可能是其他软件的依赖，当你删除了其他软件，依赖就留了下来
 - sudo pacman -R $(pacman -Qdtq) 删除所有孤儿软件
+- sudo pacman -Sc 清理缓存文件
 - sudo vim /etc/pacman.conf 配置文件路径
