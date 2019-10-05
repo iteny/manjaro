@@ -1,0 +1,23 @@
+# 清华大学
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+# Global
+Server = https://cdn.repo.archlinuxcn.org/$arch
+
+# 浙江大学
+Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+
+# 中国科技大学
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+
+# 香港大学
+Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
+
+# 武汉大学
+Server = https://mirrors.hustunique.com/archlinuxcn/$arch
+
+# 上海科技大学
+Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+
+# 中国科学院
+Server = https://mirrors.opencas.org/archlinuxcn/$arch
