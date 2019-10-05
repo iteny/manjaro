@@ -1,3 +1,11 @@
 # 推荐的一些软件列表awesome运用自如
-- sudo pacman -S simplescreenrecorder  "屏幕录像软件
-- sudo pacman -S screenkey  "键盘录入
+- sudo pacman -S simplescreenrecorder  屏幕录像软件
+- sudo pacman -S screenkey  键盘录入
+- sudo pacman -S kdenlive  视频编辑器
+- sudo pacman -S gimp  图片处理软件
+- sudo pacman -S thunderbird  邮件管理器
+- sudo pacman -S libreoffice  office
+- sudo pacman -S vlc  视频播放器
+- sudo pacman -S virtualbox  虚拟机
+- sudo pacman -S qbittorrent  下载工具
+- postman  谷歌浏览器接口测试工具
