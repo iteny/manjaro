@@ -32,7 +32,7 @@ export XMODIFIERS="@im=fcitx"
 ## zsh的安装配置
 - sudo pacman -S alacritty  终端仿真器，性能极佳
 - vim ~/.config/i3/config  修改i3默认终端为alacritty
-- vim ~/.config/alacritty/alacritty  用/size找到文字大小，改成16以上，终端字体太小看不清，找到background改成半透明0.5
+- vim ~/.config/alacritty/alacritty  用/size找到文字大小，改成16以上，终端字体太小看不清，找到opacity改成半透明0.5,需要安装compton
 - sudo pacman -S zsh 安装zsh
 - chsh -s /usr/bin/zsh 修改默认的shell
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  安装on-my-zsh
@@ -41,3 +41,5 @@ export XMODIFIERS="@im=fcitx"
 - sudo pacman -S xorg  安装xorg全部
 - wget https://raw.githubusercontent.com/iteny/manjaro/master/.xmodmap  已经编辑好了，直接下载到根目录
 - xmodmap ~/.xmodmap  让配置生效
+## 更改桌面壁纸
+- sudo pacman -S feh variety  首先安装壁纸工具feh,然后安装管理器variety
