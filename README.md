@@ -39,14 +39,5 @@ export XMODIFIERS="@im=fcitx"
 
 ## xorg套件，更改你的硬件设置
 - sudo pacman -S xorg  安装xorg全部
-- xmodmap -pke  他会输出你键盘每一个按键的位置
-- xmodmap -pke > ~/.xmodmap  把键盘配置文件输出到根目录下
-- vim ~/.xmodmap  我们修改键盘位置，终端xev打开，查看按键的编号
-- 修改完后，需要头部清除原来的键位
-clear control
-clear lock
-clear mod1
-- 底部重新刷入键位
-add control = Control_L Control_R
-add mod1 = Alt_L
+- wget https://raw.githubusercontent.com/iteny/manjaro/master/.xmodmap  已经编辑好了，直接下载到根目录
 - xmodmap ~/.xmodmap  让配置生效
