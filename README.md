@@ -3,7 +3,12 @@ Manjaro Configure
 
 ## 进入系统更新镜像源
 - 全部勾选上点击两次ok即可
-- sudo pacman-mirrors -i -c China -m rank
+- sudo pacman-mirrors -i -c China -m rank  光有这一步还不行
+- sudo /etc/pacman.conf  添加一列[archlinuxcn]
+- sudo pacman-mirrors -g  更新源列表
+- sudo pacman -Syyu  更新系统
+- sudo pacman -S archlinuxcn-keyring  防止PGP签名错误
+
 ## 更新系统及软件，一路回车即可
 - sudo pacman -Syyu
 ## 一些配置文件文件的路径
