@@ -12,6 +12,11 @@ keycode 37 = Alt_L Meta_L Alt_L Meta_L
 ! 把Alt_L键更换为ESC键
 keycode 64 = Escape NoSymbol Escape
 
+! 把Control_R键更换为Alt_L键
+keycode 105 = Alt_R Meta_R Alt_R Meta_R
+
+! 把Alt_R键更换为Control_R键
+keycode 108 = Control_R NoSymbol Control_R
 ! 如果修改的按键涉及到了修饰键（modifier）， 那么就需要更新一下相应的修饰键，因为它们是和keycode绑定的 
 ! 
 ! 更新modifier键之前的结果:
