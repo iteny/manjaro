@@ -11,6 +11,9 @@ Manjaro Configure
 
 ## 更新系统及软件，一路回车即可
 - sudo pacman -Syyu
+## i3wm bar美化
+- sudo pacman -S ttf-font-awesome  安装依赖的字体
+- sudo pacman -S conky  安装bar管理器
 ## 一些配置文件文件的路径
 - sudo vim /etc/pacman.conf  #pacman的配置文件
 - sudo vim ~/.vimrc  #vim的配置文件路径
