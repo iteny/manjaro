@@ -171,6 +171,9 @@ fi
 
 zplug load
 # 别名
+alias c='clear'
+# 需要安装ranger文件管理器
+alias ra='ranger'
 alias nv='nvim'
 alias nvi='nvim'
 # 需要安装rmtrash,删除到回收站
