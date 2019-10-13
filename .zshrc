@@ -170,3 +170,17 @@ if ! zplug check; then
 fi
 
 zplug load
+# 别名
+alias nv='nvim '
+alias nvi='nvim '
+# 需要安装rmtrash,删除到回收站
+alias rm='rmtrash '
+alias fk='fuck'
+alias ff='fzf'
+alias cn='trans :zh-CN '
+alias en='trans :en '
+# youbute
+alias download_youbute_mp3='youtube-dl --extract-audio --audio-format mp3 --no-playlist'
+alias download_youbute='youtube-dl -f bestvideo+bestaudio '
+alias download_youbute_mp3_proxy='youtube-dl --proxy 'socks5://127.0.0.1:1080' --extract-audio --audio-format mp3 '
+alias download_youbute_proxy='youtube-dl --proxy 'socks5://127.0.0.1:1080' -f bestvideo+bestaudio '
