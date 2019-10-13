@@ -171,12 +171,19 @@ fi
 
 zplug load
 # 别名
-alias nv='nvim '
-alias nvi='nvim '
+alias nv='nvim'
+alias nvi='nvim'
 # 需要安装rmtrash,删除到回收站
-alias rm='rmtrash '
+alias rm='trash' #删除文件到回收站
+alias rm-empty='trash-empty' #清空回收站
+alias rm-list='trash-list' #列出回收站文件
+alias rm-restore='trash-restore' #列出当前目录可以还原文件
+alias rm-rf='trash-rm' #删除回收站中的所有文件
+# 需要安装thefuck
 alias fk='fuck'
+# 需要安装fzf文件查找组件
 alias ff='fzf'
+# 需要安装谷歌translate-shell
 alias cn='trans :zh-CN '
 alias en='trans :en '
 # youbute
