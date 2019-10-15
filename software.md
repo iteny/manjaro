@@ -10,4 +10,4 @@
 - sudo pacman -S qbittorrent  下载工具
 - sudo pacman -S zathura  pdf阅读器vim风格
 - sudo pacman -S thunar  文件管理器
-- postman  谷歌浏览器接口测试工具
+- sudo pacman -S postman-bin  谷歌浏览器接口测试工具
