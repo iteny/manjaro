@@ -172,6 +172,7 @@ fi
 zplug load
 # 别名
 alias c='clear'
+alias s='screenfetch'
 # 需要安装ranger文件管理器
 alias ra='ranger'
 alias nv='nvim'
