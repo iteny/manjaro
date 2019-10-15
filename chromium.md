@@ -1,0 +1,13 @@
+## 谷歌浏览器的一些插件选择
+- EditThisCookie   修改cookie的小插件
+- GitHub Hovercard  鼠标悬停预览功能，每次查看个人信息、项目信息、Issue信息
+- Momentum  美化谷歌浏览器标签页，自动更换壁纸
+- Octotree  超实用的GitHub可视化代码树插件
+- better-onetab  浏览器标签页回收工具
+- Proxy SwitchyOmega  代理科学上网
+- Tampermonkey  油猴，用来屏蔽广告
+- Vimium  浏览器具备vim功能
+- Wappalyzer 网站技术分析工具
+- WEB前端助手
+- 店侦探
+- 达达划词
