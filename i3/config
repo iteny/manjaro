@@ -22,6 +22,7 @@ gaps inner 2
 new_window pixel 1
 exec_always feh --bg-scale ~/Pictures/moon.jpg
 exec_always sslocal -c ~/.config/i3/ssr.json
+exec_always polipo -c ~/.config/i3/poconfig
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
