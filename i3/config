@@ -193,7 +193,8 @@ bindsym $mod+r mode "resize"
 
 #******scrot*******************
 bindsym Print exec scrot ~/Pictures/shot/%Y-%m-%d-%T.png
-bindsym Scroll_Lock exec --no-startup-id i3lock -c '#000000', mode "default"
+bindsym Scroll_Lock exec --no-startup-id i3lock -i ~/Pictures/city.png, mode "default"
+bindsym $mod+x exec i3lock --color=2b2b2b --show-failed-attempts
 bindsym $mod+Home exec thunar
 bindsym $mod+End exec vlc
 bindsym $mod+Next exec gimp
@@ -291,3 +292,7 @@ mode "$mode_system" {
 	bindsym s exec --no-startup-id systemctl poweroff, mode "default"
 	bindsym Escape mode "default"
 }
+#*********************************************sound control**********************************8
+bindsym $mod+F11 exec --no-startup-id pactl set-sink-volume 0 +20% #increase sound>
+bindsym $mod+F10 exec --no-startup-id pactl set-sink-volume 0 -20% #decrease sound>
+bindsym $mod+F9 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
