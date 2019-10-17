@@ -14,6 +14,11 @@ Manjaro Configure
 ## i3wm bar美化
 - sudo pacman -S ttf-font-awesome  安装依赖的字体
 - sudo pacman -S conky  安装bar管理器
+## i3锁屏软件，自带的i3lock一抹黑，不舒服，换成了i3lock-fancy
+- git clone https://github.com/meskarune/i3lock-fancy.git
+- cd i3lock-fancy
+- sudo make install
+- i3lock-fancy -gpf Comic-Sans-MS -- scrot -z
 ## 一些配置文件文件的路径
 - sudo vim /etc/pacman.conf  #pacman的配置文件
 - sudo vim ~/.vimrc  #vim的配置文件路径
