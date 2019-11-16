@@ -66,3 +66,10 @@ export XMODIFIERS="@im=fcitx"
 - sudo pacman -R $(pacman -Qdtq) 删除所有孤儿软件
 - sudo pacman -Sc 清理缓存文件
 - sudo vim /etc/pacman.conf 配置文件路径
+
+## rust安装
+- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  稳定版本安装
+- export PATH="$HOME/.cargo/bin:$PATH"  这里最好重启一下
+- rustup install nightly  安装最新版本，可能不稳定，但是如果要安装racer就必须用这个
+- rustup default nightly  设置默认为这个版本
+- cargo install racer  安装racer
