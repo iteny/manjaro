@@ -73,3 +73,4 @@ export XMODIFIERS="@im=fcitx"
 - rustup install nightly  安装最新版本，可能不稳定，但是如果要安装racer就必须用这个
 - rustup default nightly  设置默认为这个版本
 - cargo install racer  安装racer
+- wget https://static.rust-lang.org/dist/rustc-nightly-src.tar.gz  官网下载源码，自动不全需要这个
